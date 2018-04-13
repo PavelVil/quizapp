@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Questions>
+    <Question number="1" text="Текст вопроса 1">
+        <Answer number="1" text="Текст ответа 1" right="true"/>
+        <Answer number="2" text="Текст ответа 2" right="false"/>
+    </Question>
+    <Question number="2" text="Текст вопроса 2 ">
+        <Answer number="1" text="Текст ответа 1" right="false"/>
+        <Answer number="2" text="Текст ответа 2" right="true"/>
+        <Answer number="3" text="Текст ответа 3" right="false"/>
+    </Question>
+    <Question number="3" text="Текст вопроса 3 ">
+        <Answer number="1" text="Текст ответа 1" right="false"/>
+        <Answer number="2" text="Текст ответа 2" right="true"/>
+        <Answer number="3" text="Текст ответа 3" right="true"/>
+        <Answer number="4" text="Текст ответа 4" right="false"/>
+    </Question>
+    <Question number="4" text="Текст вопроса 4 ">
+        <Answer number="1" text="Текст ответа 1" right="true"/>
+        <Answer number="2" text="Текст ответа 2" right="false"/>
+        <Answer number="3" text="Текст ответа 3" right="false"/>
+        <Answer number="4" text="Текст ответа 4" right="false"/>
+    </Question>
+</Questions>

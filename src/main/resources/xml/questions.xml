@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Questions>
+    <Question number="1" text="Кто из президентов США написал свой собственный рассказ про Шерлока Холмса?">
+        <Answer number="1" text="Джон Кеннеди" right="false"/>
+        <Answer number="2" text="Франклин Рузвельт" right="true"/>
+        <Answer number="3" text="Рональд Рейган" right="false"/>
+    </Question>
+    <Question number="2" text="Какую пошлину ввели в XII  веке в Англии для того чтобы заставить мужчин пойти на войну?">
+        <Answer number="1" text="Налог на тунеядство" right="false"/>
+        <Answer number="2" text="Налог на трусость" right="true"/>
+        <Answer number="3" text="Налог на отсутствие сапог" right="false"/>
+    </Question>
+    <Question number="3" text="Нормы Конституции РФ закрепляют, что территория РФ включает в себя:">
+        <Answer number="1" text="Территории ее субъектов" right="true"/>
+        <Answer number="2" text="Внутренние воды" right="true"/>
+        <Answer number="3" text="Территориальное море" right="true"/>
+        <Answer number="4" text="Континентальный шельф" right="false"/>
+        <Answer number="5" text="Исключительную экономическую зону" right="false"/>
+    </Question>
+    <Question number="4" text="Выберите три элемента правоотношения">
+        <Answer number="1" text="Содержание" right="true"/>
+        <Answer number="2" text="Субъект" right="true"/>
+        <Answer number="3" text="Юридические факты" right="false"/>
+        <Answer number="4" text="Наказание" right="false"/>
+        <Answer number="4" text="Объект" right="true"/>
+    </Question>
+</Questions>

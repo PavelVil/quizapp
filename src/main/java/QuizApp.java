@@ -4,7 +4,7 @@ import service.*;
 public class QuizApp {
 
     public static void main(String[] args) throws Exception {
-        XmlQuizController controller = new XmlQuizController(new XmlReaderService(), new XmlWriteService());
+        QuizController controller = new XmlQuizController(new XmlReaderService(), new XmlWriteService());
         controller.buildQuiz();
     }
 

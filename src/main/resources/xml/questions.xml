@@ -22,6 +22,6 @@
         <Answer number="2" text="Субъект" right="true"/>
         <Answer number="3" text="Юридические факты" right="false"/>
         <Answer number="4" text="Наказание" right="false"/>
-        <Answer number="4" text="Объект" right="true"/>
+        <Answer number="5" text="Объект" right="true"/>
     </Question>
 </Questions>

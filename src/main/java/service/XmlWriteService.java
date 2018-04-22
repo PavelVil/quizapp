@@ -33,9 +33,8 @@ public class XmlWriteService implements WriterService {
         try {
             return DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
         } catch (ParserConfigurationException e) {
-            System.out.println("Ошибка построения документа.\n" + e.getMessage());
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     private Element createQuestionElement(Document document, Question question) {

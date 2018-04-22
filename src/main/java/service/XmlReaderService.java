@@ -41,9 +41,8 @@ public class XmlReaderService implements ReaderService {
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             return dBuilder.parse(getFile(pathToFile));
         } catch (ParserConfigurationException | SAXException | IOException e) {
-            System.err.println("Ошибка построения документа.\n" + e.getMessage());
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     private Question buildQuestion(NamedNodeMap attributes) {

@@ -50,9 +50,8 @@ public abstract class AbstractQuizController implements QuizController {
         try {
             return reader.readLine();
         } catch (IOException e) {
-            System.err.println("Ошибка ввода/вывода.\n" + e.getMessage());
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     private void closeBufferedReader(Reader reader) {
